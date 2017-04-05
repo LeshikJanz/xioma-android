@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name_prod">XIOMA Automotive</string>
+    <string name="app_name_test">XIOMA Automotive</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scan">Scan</string>
+	<string name="done">Done</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="project_number">904193723181</string>
+    <string name="notification_number">1337</string>
+</resources>

@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.yscannerapp"
+        minSdkVersion 11
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':googleplayservices_lib')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/core-2.2.jar')
+    compile files('libs/zbar.jar')
+}

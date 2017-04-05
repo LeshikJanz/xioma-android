@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/exploded-aar/xioma/googleplayservices_lib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7a6a21f57e9c2d97e21de0a1bd3a2ddbc2892b77">
+        <dex dex="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/pre-dexed/debug/xioma-googleplayservices_lib-unspecified_2bf6888057ee8e6589ab7d4e64e3ff94f75b6d2d.jar" />
+    </item>
+    <item
+        jar="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/exploded-aar/xioma/googleplayservices_lib/unspecified/jars/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="922465f5eddb6e59d5f81aceb5b4c4bc95a51f88">
+        <dex dex="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/pre-dexed/debug/google-play-services_b4ad21a37406236f32aa1a5ee0d755fe841a3bee.jar" />
+    </item>
+    <item
+        jar="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/libs/zbar.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0a7b88ba1496a0b4af76069ad40dacd3897149e0">
+        <dex dex="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/pre-dexed/debug/zbar_35b7dbad0ebdc7d9c6cc18acb4b9c9e25e578499.jar" />
+    </item>
+    <item
+        jar="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/pre-dexed/debug/android-support-v4_7c88e4bacfc2797dc5db1407da80adca87ce807d.jar" />
+    </item>
+    <item
+        jar="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/libs/core-2.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="/Users/aliakseitsiareshka/Downloads/xioma/yscannerapp/build/intermediates/pre-dexed/debug/core-2.2_804f073c9a6eb80d914639ae5e553f2b438a0926.jar" />
+    </item>
+
+</items>

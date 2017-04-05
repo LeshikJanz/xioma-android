@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yscannerapp"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name_test"
+         >
+        <activity
+            android:name="com.yscannerapp.ScanBarcodeActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <data android:host="ScanBarcodeActivity-activity" android:scheme="com.yscannerapp" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.yscannerapp.WebViewActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"  
+			android:windowSoftInputMode="adjustResize"
+			android:launchMode="singleInstance">
+            <intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+        <activity android:name="com.yscannerapp.MyMessagesActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+			android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+			android:screenOrientation="landscape"
+			
+			>
+            <intent-filter>
+                <data android:host="MyMessagesActivity-activity" android:scheme="com.yscannerapp" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+		</activity>
+		
+        <activity android:name="com.yscannerapp.SplashScreen"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+			android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+			android:screenOrientation="landscape"
+			>
+		</activity>
+		
+        <activity android:name="com.yscannerapp.CameraActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+			android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+			>
+		</activity>
+        
+        <service
+            android:name="com.yscannerapp.MessageReceivingService"
+            android:label="com.yscannerapp.MessageReceivingService" >
+            <intent-filter>
+                <action android:name="com.yscannerapp.WebViewActivity" />
+                <action android:name="com.yscannerapp.ExternalReceiver" />
+                <category android:name="com.yscannerapp" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.yscannerapp.ExternalReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.android.c2dm.intent.REGISTER" />
+
+                <category android:name="com.yscannerapp" />
+            </intent-filter>
+        </receiver>
+    </application>
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>	
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.REGISTER" />	
+    <permission android:name="com.yscannerapp.permission.C2D_MESSAGE"
+    android:protectionLevel="signature" />
+	<uses-permission android:name="com.yscannerapp.permission.C2D_MESSAGE" />
+
+</manifest>

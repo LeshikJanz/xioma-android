@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_icon_dark.xml",
+        "source": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_text_dark.xml",
+        "source": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_icon_dark.xml",
+        "source": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_icon_light.xml",
+        "source": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_text_dark.xml",
+        "source": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_text_light.xml",
+        "source": "/Users/aliakseitsiareshka/Downloads/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_icon_light.xml",
+        "source": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_text_light.xml",
+        "source": "/Users/Yadid/git/xioma/googleplayservices_lib/build/intermediates/bundles/debug/res/drawable/common_signin_btn_text_light.xml"
+    }
+]
